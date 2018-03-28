@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">calculos</string>
+    <string name="calcularImc">Calcular IMC</string>
+    <string name="calcularFinanciamento">Calcular Financiamento PRICE</string>
+    <string name="title_activity_calculo_imc">CalculoImc</string>
+    <string name="title_activity_calculo_financiamento">CalculoFinanciamento</string>
+    <string name="calcular">Calcular</string>
+</resources>
