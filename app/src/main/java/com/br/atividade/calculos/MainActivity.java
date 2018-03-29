@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,4 +28,17 @@ public class MainActivity extends AppCompatActivity {
     public void sair(View view){
         onDestroy();
     }
+
+    public void chamarSegundaTela(View view){
+        Intent intent = new Intent(this, SegundaTela.class);
+        intent.putExtra("timeCampeao","Palmeiras");
+        intent.putExtra("titulosBrasileiros",10);
+        startActivity(intent);
+    }
+
+    public void chamarListView(View view){
+        Intent intent = new Intent(this, ListViewTimes.class);
+        startActivity(intent);
+    }
+
 }

@@ -23,7 +23,9 @@
         <activity
             android:name=".CalculoFinanciamento"
             android:label="@string/title_activity_calculo_financiamento"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SegundaTela" />
+        <activity android:name=".ListViewTimes"></activity>
     </application>
 
 </manifest>
